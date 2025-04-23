@@ -14,8 +14,9 @@ main()
 			vetor[i] = vetor[i] * 1.02;
 		}
 	}
+	
+	printf("O vetor ficou assim: \n");
 	for(i = 0; i < 10; i++) {
-	    printf("O vetor ficou assim: \n")
 		printf("%d \n", vetor[i]);
 	}
 }
